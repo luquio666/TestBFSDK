@@ -16,6 +16,118 @@
 		"StartingBalance": "100",
 		"MinOfflineTime": "15"
 	},
+	"items": [
+		{
+			"ItemName": "bundle_01",
+			"IsStackable": "FALSE",
+			"$type": "BigfootSdk.Backend.BundleItemModel",
+			"Items": [
+				{
+					"Amount": 1,
+					"ItemName": "skin_01",
+					"SubType": "Item",
+					"$type": "BigfootSdk.Backend.DropableItemModel"
+				},
+				{
+					"Amount": 100,
+					"CurrencyKey": "soft",
+					"$type": "BigfootSdk.Backend.DropableCurrencyModel"
+				},
+				{
+					"Amount": 7,
+					"ItemName": "basicItem_01",
+					"SubType": "Item",
+					"$type": "BigfootSdk.Backend.DropableItemModel"
+				}
+			]
+		},
+		{
+			"ItemName": "epic_droptable",
+			"IsStackable": "FALSE",
+			"$type": "BigfootSdk.Backend.DroptableItemModel",
+			"Data": {
+				"level": 3,
+				"exp": 100
+			},
+			"Items": [
+				{
+					"ItemName": "skin_01",
+					"Weight": 0.00001,
+					"SubType": "Item",
+					"$type": "BigfootSdk.Backend.DropableItemModel"
+				}
+			]
+		},
+		{
+			"ItemName": "skin_01",
+			"IsStackable": "TRUE",
+			"$type": "BigfootSdk.Backend.BaseItemModel",
+			"Data": {
+				"level": 3,
+				"exp": 100
+			}
+		},
+		{
+			"ItemName": "hard_pack",
+			"IsStackable": "FALSE",
+			"Cost": {
+				"Amount": 0,
+				"CurrencyKey": "hard",
+				"$type": "BigfootSdk.Backend.CurrencyCost"
+			},
+			"$type": "BigfootSdk.Backend.BundleItemModel",
+			"Items": [
+				{
+					"Amount": 500,
+					"CurrencyKey": "hard",
+					"$type": "BigfootSdk.Backend.DropableCurrencyModel"
+				}
+			]
+		},
+		{
+			"ItemName": "basicItem_01",
+			"IsStackable": "TRUE",
+			"$type": "BigfootSdk.Backend.BaseItemModel",
+			"Modifiers": [
+				{
+					"Multiplier": 0.5,
+					"$type": "BigfootSdk.SpecificGeneratorCostMultiplier",
+					"Tag": "Rank"
+				},
+				{
+					"Multiplier": 0.5,
+					"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+					"Tag": "Rank"
+				},
+				{
+					"Multiplier": 2,
+					"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+					"Tag": "Rank"
+				},
+				{
+					"Multiplier": 0.5,
+					"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+					"Tag": "Rank"
+				},
+				{
+					"Multiplier": 2,
+					"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+					"Tag": "Rank"
+				}
+			]
+		}
+	],
+	"soft_reset": {
+		"SoftResetEffects": [
+			{
+				"Group": "SoftReset",
+				"Multiplier": 2,
+				"$type": "BigfootSdk.AllGeneratorBonusMultiplier",
+				"Tag": "SoftReset"
+			}
+		],
+		"SceneName": "Idle"
+	},
 	"generators": {
 		"MaxAmountOfGenerators": "2000",
 		"Generators": [
@@ -884,118 +996,6 @@
 				"Tag": "main"
 			}
 		]
-	},
-	"items": [
-		{
-			"ItemName": "bundle_01",
-			"IsStackable": "FALSE",
-			"$type": "BigfootSdk.Backend.BundleItemModel",
-			"Items": [
-				{
-					"Amount": 1,
-					"ItemName": "skin_01",
-					"SubType": "Item",
-					"$type": "BigfootSdk.Backend.DropableItemModel"
-				},
-				{
-					"Amount": 100,
-					"CurrencyKey": "soft",
-					"$type": "BigfootSdk.Backend.DropableCurrencyModel"
-				},
-				{
-					"Amount": 7,
-					"ItemName": "basicItem_01",
-					"SubType": "Item",
-					"$type": "BigfootSdk.Backend.DropableItemModel"
-				}
-			]
-		},
-		{
-			"ItemName": "epic_droptable",
-			"IsStackable": "FALSE",
-			"$type": "BigfootSdk.Backend.DroptableItemModel",
-			"Data": {
-				"level": 3,
-				"exp": 100
-			},
-			"Items": [
-				{
-					"ItemName": "skin_01",
-					"Weight": 0.00001,
-					"SubType": "Item",
-					"$type": "BigfootSdk.Backend.DropableItemModel"
-				}
-			]
-		},
-		{
-			"ItemName": "skin_01",
-			"IsStackable": "TRUE",
-			"$type": "BigfootSdk.Backend.BaseItemModel",
-			"Data": {
-				"level": 3,
-				"exp": 100
-			}
-		},
-		{
-			"ItemName": "hard_pack",
-			"IsStackable": "FALSE",
-			"Cost": {
-				"Amount": 0,
-				"CurrencyKey": "hard",
-				"$type": "BigfootSdk.Backend.CurrencyCost"
-			},
-			"$type": "BigfootSdk.Backend.BundleItemModel",
-			"Items": [
-				{
-					"Amount": 500,
-					"CurrencyKey": "hard",
-					"$type": "BigfootSdk.Backend.DropableCurrencyModel"
-				}
-			]
-		},
-		{
-			"ItemName": "basicItem_01",
-			"IsStackable": "TRUE",
-			"$type": "BigfootSdk.Backend.BaseItemModel",
-			"Modifiers": [
-				{
-					"Multiplier": 0.5,
-					"$type": "BigfootSdk.SpecificGeneratorCostMultiplier",
-					"Tag": "Rank"
-				},
-				{
-					"Multiplier": 0.5,
-					"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
-					"Tag": "Rank"
-				},
-				{
-					"Multiplier": 2,
-					"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
-					"Tag": "Rank"
-				},
-				{
-					"Multiplier": 0.5,
-					"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
-					"Tag": "Rank"
-				},
-				{
-					"Multiplier": 2,
-					"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
-					"Tag": "Rank"
-				}
-			]
-		}
-	],
-	"soft_reset": {
-		"SoftResetEffects": [
-			{
-				"Group": "SoftReset",
-				"Multiplier": 2,
-				"$type": "BigfootSdk.AllGeneratorBonusMultiplier",
-				"Tag": "SoftReset"
-			}
-		],
-		"SceneName": "Idle"
 	},
 	"idle_levels": [
 		{

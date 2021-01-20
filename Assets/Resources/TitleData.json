@@ -1,0 +1,1029 @@
+{
+	"RemoteConfig": [
+		{
+			"Key": "min_android_version",
+			"Value": "1"
+		},
+		{
+			"Key": "android_title_data_1",
+			"Value": "1"
+		}
+	],
+	"android_url": "https://play.google.com/store/apps/details?id={PACKAGE_NAME}",
+	"ios_url": "https://apps.apple.com/app/{APP_ID}",
+	"title_data_version": "1",
+	"game": {
+		"StartingBalance": "100",
+		"MinOfflineTime": "15"
+	},
+	"generators": {
+		"MaxAmountOfGenerators": "2000",
+		"Generators": [
+			{
+				"Name": "generator_1",
+				"BaseBonus": "1",
+				"LevelUpBonus": "1",
+				"Time": "2.5",
+				"CostMultiplier": "1.07",
+				"WaitForGeneration": "FALSE",
+				"WaitForCollection": "FALSE",
+				"UpgradeCost": {
+					"Amount": 1,
+					"ResourceKey": "points",
+					"$type": "BigfootSdk.Core.Idle.ResourceCost"
+				},
+				"Ranks": [
+					{
+						"RequiredAmount": "25",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "50",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "100",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "200",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "300",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "400",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "500",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "600",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "700",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "800",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "900",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1000",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1100",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1200",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1300",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1400",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1500",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1600",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1700",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1800",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1900",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "2000",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					}
+				],
+				"CustomData": {},
+				"Tag": "main"
+			},
+			{
+				"Name": "generator_2",
+				"BaseBonus": "5",
+				"LevelUpBonus": "5",
+				"Time": "4",
+				"CostMultiplier": "1.073",
+				"WaitForGeneration": "FALSE",
+				"WaitForCollection": "FALSE",
+				"UpgradeCost": {
+					"Amount": 10,
+					"ResourceKey": "points",
+					"$type": "BigfootSdk.Core.Idle.ResourceCost"
+				},
+				"Ranks": [
+					{
+						"RequiredAmount": "25",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "50",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "100",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "200",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "300",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "400",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "500",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "600",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "700",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "800",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "900",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1000",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1100",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1200",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1300",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1400",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1500",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1600",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1700",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1800",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1900",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "2000",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					}
+				],
+				"CustomData": {},
+				"Tag": "main"
+			},
+			{
+				"Name": "generator_3",
+				"BaseBonus": "21",
+				"LevelUpBonus": "21",
+				"Time": "7",
+				"CostMultiplier": "1.076",
+				"WaitForGeneration": "FALSE",
+				"WaitForCollection": "TRUE",
+				"UpgradeCost": {
+					"Amount": 160,
+					"ResourceKey": "points",
+					"$type": "BigfootSdk.Core.Idle.ResourceCost"
+				},
+				"Ranks": [
+					{
+						"RequiredAmount": "25",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "50",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "100",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "200",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "300",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "400",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "500",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "600",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "700",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "800",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "900",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1000",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1100",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1200",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1300",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1400",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1500",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1600",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1700",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1800",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1900",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "2000",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					}
+				],
+				"CustomData": {},
+				"Tag": "main"
+			},
+			{
+				"Name": "generator_4",
+				"BaseBonus": "89",
+				"LevelUpBonus": "89",
+				"Time": "12",
+				"CostMultiplier": "1.079",
+				"WaitForGeneration": "FALSE",
+				"WaitForCollection": "TRUE",
+				"UpgradeCost": {
+					"Amount": 1200,
+					"ResourceKey": "points",
+					"$type": "BigfootSdk.Core.Idle.ResourceCost"
+				},
+				"Ranks": [
+					{
+						"RequiredAmount": "25",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "50",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "100",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "200",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "300",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "400",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "500",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "600",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "700",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "800",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "900",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1000",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1100",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1200",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1300",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1400",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1500",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1600",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1700",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1800",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "1900",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					},
+					{
+						"RequiredAmount": "2000",
+						"Modifier": {
+							"Multiplier": 2,
+							"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+							"Group": "Rank",
+							"Tag": "Rank"
+						}
+					}
+				],
+				"CustomData": {},
+				"Tag": "main"
+			}
+		]
+	},
+	"items": [
+		{
+			"ItemName": "bundle_01",
+			"IsStackable": "FALSE",
+			"$type": "BigfootSdk.Backend.BundleItemModel",
+			"Items": [
+				{
+					"Amount": 1,
+					"ItemName": "skin_01",
+					"SubType": "Item",
+					"$type": "BigfootSdk.Backend.DropableItemModel"
+				},
+				{
+					"Amount": 100,
+					"CurrencyKey": "soft",
+					"$type": "BigfootSdk.Backend.DropableCurrencyModel"
+				},
+				{
+					"Amount": 7,
+					"ItemName": "basicItem_01",
+					"SubType": "Item",
+					"$type": "BigfootSdk.Backend.DropableItemModel"
+				}
+			]
+		},
+		{
+			"ItemName": "epic_droptable",
+			"IsStackable": "FALSE",
+			"$type": "BigfootSdk.Backend.DroptableItemModel",
+			"Data": {
+				"level": 3,
+				"exp": 100
+			},
+			"Items": [
+				{
+					"ItemName": "skin_01",
+					"Weight": 0.00001,
+					"SubType": "Item",
+					"$type": "BigfootSdk.Backend.DropableItemModel"
+				}
+			]
+		},
+		{
+			"ItemName": "skin_01",
+			"IsStackable": "TRUE",
+			"$type": "BigfootSdk.Backend.BaseItemModel",
+			"Data": {
+				"level": 3,
+				"exp": 100
+			}
+		},
+		{
+			"ItemName": "hard_pack",
+			"IsStackable": "FALSE",
+			"Cost": {
+				"Amount": 0,
+				"CurrencyKey": "hard",
+				"$type": "BigfootSdk.Backend.CurrencyCost"
+			},
+			"$type": "BigfootSdk.Backend.BundleItemModel",
+			"Items": [
+				{
+					"Amount": 500,
+					"CurrencyKey": "hard",
+					"$type": "BigfootSdk.Backend.DropableCurrencyModel"
+				}
+			]
+		},
+		{
+			"ItemName": "basicItem_01",
+			"IsStackable": "TRUE",
+			"$type": "BigfootSdk.Backend.BaseItemModel",
+			"Modifiers": [
+				{
+					"Multiplier": 0.5,
+					"$type": "BigfootSdk.SpecificGeneratorCostMultiplier",
+					"Tag": "Rank"
+				},
+				{
+					"Multiplier": 0.5,
+					"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+					"Tag": "Rank"
+				},
+				{
+					"Multiplier": 2,
+					"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+					"Tag": "Rank"
+				},
+				{
+					"Multiplier": 0.5,
+					"$type": "BigfootSdk.SpecificGeneratorTimeMultiplier",
+					"Tag": "Rank"
+				},
+				{
+					"Multiplier": 2,
+					"$type": "BigfootSdk.SpecificGeneratorBonusMultiplier",
+					"Tag": "Rank"
+				}
+			]
+		}
+	],
+	"soft_reset": {
+		"SoftResetEffects": [
+			{
+				"Group": "SoftReset",
+				"Multiplier": 2,
+				"$type": "BigfootSdk.AllGeneratorBonusMultiplier",
+				"Tag": "SoftReset"
+			}
+		],
+		"SceneName": "Idle"
+	},
+	"idle_levels": [
+		{
+			"Id": "0",
+			"SoftResetPrerequisites": [
+				{
+					"$type": "ResourcePrereq, Assembly-CSharp",
+					"Amount": 100000
+				}
+			]
+		},
+		{
+			"Id": "1",
+			"SoftResetPrerequisites": [
+				{
+					"$type": "ResourcePrereq, Assembly-CSharp",
+					"Amount": 300000
+				}
+			]
+		},
+		{
+			"Id": "2",
+			"SoftResetPrerequisites": [
+				{
+					"$type": "ResourcePrereq, Assembly-CSharp",
+					"Amount": 1000000
+				}
+			]
+		}
+	]
+}

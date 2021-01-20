@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f517ad94e8ba4d51bcc172fad5f2073, type: 3}
+  m_Name: SdkConfiguration_Dev
+  m_EditorClassIdentifier: 
+  Environment: dev
+  DebugSdkEvents: 1
+  SdkVersion: 1.8.45
+  AnalyticsConfiguration: {fileID: 11400000, guid: 2379ed69c2482442283b4ec7bed5a447,
+    type: 2}
+  BackendConfiguration: {fileID: 11400000, guid: eae1ec1d3ba0a4b8da197c27ad6ac433,
+    type: 2}
+  AdsConfiguration: {fileID: 0}
+  IapValidationConfiguration: {fileID: 0}

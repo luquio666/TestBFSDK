@@ -1,0 +1,9 @@
+key,English
+GeneratorsDialogButton_Hire,X{0}
+GeneratorsDialogButton_HireNextRank,RANK?
+GeneratorsDialogButton_HireMax,MAX
+GeneratorsDialog_MaxRank,MAX RANK?
+GeneratorsDialog_Buy,BUY {0}
+GeneratorsDialog_RankUp, RANK UP
+GeneratorsDialog_ProductionRate,{0} ({1}/s)
+GeneratorsDialog_ProductionInterval,{0}s

@@ -1643,7 +1643,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1190198675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 643380bd8ca764738807e306c8757b4c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c7908a8024d242478abbc8070c0bd86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 
@@ -2539,6 +2539,7 @@ MonoBehaviour:
   Dependencies:
   - SoftResetManager
   - AdBonusManager
+  - GeneratorManager
   - IdleLevelsManager
   Triggers:
   - {fileID: 1623552653}

@@ -367,8 +367,9 @@
       "Id": "1",
       "SoftResetPrerequisites": [
         {
-          "$type": "ResourcePrereq, Assembly-CSharp",
-          "Amount": 300000
+          "$type": "GeneratorLevelPrereq, Assembly-CSharp",
+          "Name": "generator_4",
+          "MinLevel": 5
         }
       ],
       "Generators": [

@@ -1,4 +1,5 @@
-﻿using BigfootSdk.Core.Idle;
+﻿using BigfootSdk.Analytics;
+using BigfootSdk.Core.Idle;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,6 +7,12 @@ using UnityEngine;
 
 public class CustomGeneratorManager : GeneratorManager
 {
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+        OnGeneratorRankUp += GeneratorRankUp;
+    }
+
     public override List<GeneratorItemModel> GetGenerators()
     {
         List<GeneratorItemModel> result = new List<GeneratorItemModel>();
@@ -18,5 +25,15 @@ public class CustomGeneratorManager : GeneratorManager
                 result.Add(match);
         }
         return result;
+    }
+
+    void GeneratorRankUp(string generatorName)
+    {
+        int amountOwned = GetGeneratorAmount(generatorName);
+        var dicRankUp = new Dictionary<string, object>
+                {
+                    { generatorName, amountOwned }
+                };
+        AnalyticsManager.Instance.TrackCustomEvent("GeneratorRankedUp", dicRankUp);
     }
 }

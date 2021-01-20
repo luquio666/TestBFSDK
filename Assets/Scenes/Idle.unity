@@ -575,9 +575,8 @@ MonoBehaviour:
   SceneToLoad: 
   ThingsToLoadAtTheSameTime: 1
   ThingsToLoad:
-  - {fileID: 1190198677}
-  - {fileID: 701168749}
   - {fileID: 1060297990}
+  - {fileID: 701168749}
   ThingsDoneLoading: []
   _thingsLoading: 0
   Graph: {fileID: 11400000, guid: b6d818f96f95c41c5aafe07997bbaaea, type: 2}
@@ -1401,6 +1400,7 @@ MonoBehaviour:
   Triggers:
   - {fileID: 546803612}
   - {fileID: 96705055}
+  - {fileID: 1190198677}
   IsLoading: 0
   IsLoaded: 0
 --- !u!4 &1060297991
@@ -2537,7 +2537,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 
   Dependencies:
-  - GeneratorManager
   - SoftResetManager
   - AdBonusManager
   - IdleLevelsManager
